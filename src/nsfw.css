@@ -1,0 +1,12 @@
+.image-thumb {
+  overflow: hidden;
+}
+
+.image-thumb-body {
+  filter: blur(40px) !important;
+  transition: filter .2s ease;
+}
+
+.image-thumb-body:hover {
+  filter: blur(0px) !important;
+}
