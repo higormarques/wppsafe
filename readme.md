@@ -1,3 +1,5 @@
-# Whats+
+# WPPSAFE
 
-A simple addon to improve the whatsapp web experience.
+A simple web extension to hidde images on whatsapp.
+
+To show an image, just hove the image. Enjoy without fear!  ;)
