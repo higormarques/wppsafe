@@ -1,12 +1,18 @@
-.image-thumb {
+.image-thumb,
+.quoted-msg-image-wrapper {
   overflow: hidden;
 }
 
-.image-thumb-body {
+.image-thumb-body,
+.quoted-msg-image {
   filter: blur(40px) !important;
   transition: filter .2s ease;
 }
 
 .image-thumb-body:hover {
+  filter: blur(0px) !important;
+}
+
+.quoted-msg-hover .quoted-msg-image {
   filter: blur(0px) !important;
 }
