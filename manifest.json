@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "name": "wppsafe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Esconda as imagens do WhatsApp Web e exiba somente quando quiser. Passe o mouse na imagem para exibi-la.",
   "content_scripts":[
     {
-      "matches":["*://web.whatsapp.com/"],
+      "matches":["*://web.whatsapp.com/*"],
       "css": ["src/nsfw.css"]
     }
   ],
